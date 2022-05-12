@@ -24,7 +24,7 @@ class Stock:
 
 MSFT = Stock("2021-05-01", 'msft')
 print(MSFT.df.shape)
-print(MSFT.df.head())
+print(MSFT.df.head())œ
 print(MSFT.df['Adj_Daily_Change'])
 print(MSFT.EWMA_adc)
 
